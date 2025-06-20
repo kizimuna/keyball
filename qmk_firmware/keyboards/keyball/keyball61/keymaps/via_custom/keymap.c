@@ -87,7 +87,7 @@ void oledkit_render_info_user(void) {
     const uint16_t PROGMEM my_jk[] = {KC_J, KC_K, COMBO_END};
     const uint16_t PROGMEM my_kl[] = {KC_K, KC_L, COMBO_END};
 
-    combo_t key_combox[] = {
+    combo_t key_combos[] = {
         [UI_UP] = COMBO(my_ui, KC_UP),
         [MC_DOWN] = COMBO(my_mco, KC_DOWN),
         [JK_LEFT] = COMBO(my_jk, KC_LEFT),
