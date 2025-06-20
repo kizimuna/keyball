@@ -66,5 +66,5 @@ void keyball_on_adjust_layout(keyball_adjust_t v) {
         [MC_DOWN] = COMBO(my_mco, KC_DOWN),
         [JK_LEFT] = COMBO(my_jk, KC_LEFT),
         [KL_RIGHT] = COMBO(my_kl, KC_RGHT),
-    }
+    };
 #endif
