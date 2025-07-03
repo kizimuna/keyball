@@ -90,7 +90,7 @@ void oledkit_render_info_user(void) {
     combo_t key_combos[] = {
         [UI_UP] = COMBO(my_ui, KC_UP),
         [MC_DOWN] = COMBO(my_mco, KC_DOWN),
-        [JK_LEFT] = COMBO(my_jk, MS_LEFT),
-        [KL_RIGHT] = COMBO(my_kl, MS_RGHT),
+        [JK_LEFT] = COMBO(my_jk, MS_BTN1),
+        [KL_RIGHT] = COMBO(my_kl, MS_BTN2),
     };
 #endif
